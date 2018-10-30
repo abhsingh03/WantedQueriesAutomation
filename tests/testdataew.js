@@ -1,0 +1,105 @@
+module.exports = {
+    
+    validTests : [
+        {
+            header:'QA12345678',
+            mke:'ab@',
+            ori:'abc123456',
+            name:'Abhilasha ',
+            sex: 'F',
+            race: 'A',
+            hgt: '173',
+            wgt: '150',
+            hair: 'Black',
+            off: 'Robbery',
+            dow: '01102018',
+            oln: '12345',
+            ols: 'UT',
+            dlexp: '23102018',
+            lic: 'UT345',
+            lis: 'UT',
+            lid: '03052018'
+        },
+    ],
+
+    invalidTests : [ 
+        {
+            header:'QA123',
+            mke:'ab@',
+            ori:'abc123456',
+            name:'Abhilasha ',
+            sex: 'F',
+            race: 'A',
+            hgt: '173',
+            wgt: '150',
+            hair: 'Black',
+            off: 'Robbery',
+            dow: '01102018',
+            oln: '12345',
+            ols: 'UT',
+            dlexp: '23102018',
+            lic: 'UT345',
+            lis: 'UT',
+            lid: '03052018',
+        },
+    ],
+    cancelvalid: [
+        { 
+            wid: '6098510187',
+            res: 'No reason given',
+            doc: '03102018',
+        },
+    ],
+    cancelinvalid: [
+        {
+            wid: '609851018',
+            res: 'no12364',
+            doc:'03102019',
+        },
+    ],
+    modifyvalid: [
+        {
+            wid: '6098510187',
+            header:'QA12345678',
+            mke:'ab@',
+            ori:'abc123456',
+            name:'Abhilasha ',
+            sex: 'F',
+            race: 'A',
+            hgt: '173',
+            wgt: '150',
+            hair: 'Black',
+            off: 'Robbery',
+            dow: '01102018',
+            oln: '12345',
+            ols: 'UT',
+            dlexp: '23102018',
+            lic: 'UT345',
+            lis: 'UT',
+            lid: '03052018'
+        },
+    ],
+
+    modifyinvalid: [
+            {
+                wid: '6098510187',
+                header:'QA123',
+                mke:'ab@',
+                ori:'abc123456',
+                name:'Abhilasha ',
+                sex: 'F',
+                race: 'A',
+                hgt: '173',
+                wgt: '150',
+                hair: 'Black',
+                off: 'Robbery',
+                dow: '01102018',
+                oln: '12345',
+                ols: 'UT',
+                dlexp: '23102018',
+                lic: 'UT345',
+                lis: 'UT',
+                lid: '03052018'
+            },
+    ],
+}
